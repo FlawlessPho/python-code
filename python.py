@@ -16,3 +16,4 @@ function_2(7,43)
 def function_3(function_1,function_2):
     a = function_1 * function_2
     print(a)
+   function_3(function_1(x,y), function_2(x,y))
